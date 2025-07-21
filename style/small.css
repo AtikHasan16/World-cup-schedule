@@ -8,8 +8,10 @@
     flex-direction: column;
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
-    height: 470px;
+    margin-top: 20px;
+    position: relative;
+    height: 620px;
+    gap: 250px;
   }
 
   .button-container {
@@ -25,6 +27,35 @@
   }
 
   .banner-image > img {
-    height: 240px;
+    height: 260px;
+    width: 240px;
+
+    position: absolute;
+    top: 58%;
+    left: 30%;
+  }
+
+  .match-time {
+    flex-direction: column;
+  }
+
+  .match-time-left {
+    background-color: white;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 30px;
+  }
+
+  .btn-2 {
+    border: 1px solid gainsboro;
+    background-color: white;
+    color: #161616;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .match-time-right {
+    justify-content: center;
   }
 }

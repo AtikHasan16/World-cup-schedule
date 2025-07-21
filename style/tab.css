@@ -20,4 +20,30 @@
   .banner-image > img {
     height: 400px;
   }
+
+  .match-time {
+    flex-direction: column;
+  }
+
+  .match-time-left {
+    background-color: white;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .btn-2 {
+    border: 1px solid gainsboro;
+    background-color: white;
+    color: #161616;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .match-time-right {
+    justify-content: center;
+  }
 }

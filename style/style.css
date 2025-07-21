@@ -1,12 +1,19 @@
 /* This is the main style file */
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* This is the root style section  */
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Poppins, sans-serif;
 }
 
 body {
@@ -36,11 +43,11 @@ body {
 }
 /* The banner section starts from here */
 .banner {
-  padding-left: 100px;
   border-radius: 30px;
   width: 100%;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 .banner-title {
   color: #fff;
@@ -65,11 +72,62 @@ body {
 }
 
 /* The sidebar and match time section starts from here */
-.main {
+.match-time {
   margin: 50px auto;
+  justify-content: space-between;
 }
 
 .match-time-left {
-    
+  background-color: #161616;
+  border-radius: 10px;
+  height: fit-content;
+  padding: 30px;
+}
+
+.btn-2 {
+  background-color: white;
+  color: #161616;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.blog-btn {
+  background-color: #dd0000;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.match-time-right {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: right;
+}
+.match-time-card {
+  border-radius: 10px;
+  border: 1px solid #b4b4b4;
+  height: 240px;
+  width: 310px;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.flags {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.country-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #161616;
+  margin: 20px 0 10px 0;
+}
+
+.match-date {
+  color: #4d4d4d;
 }
 /* The footer section starts from here */
