@@ -1,10 +1,75 @@
 /* This is the main style file */
 
-/* Body style  */
+/* This is the root style section  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  max-width: 1320px;
+  margin: 0 auto;
+}
 /* Common css styles  */
 
+.display-flex {
+  display: flex;
+}
+
+.bg-color {
+  background-color: #161616;
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #dd0000;
+  padding: 16px;
+  font-size: 1.3rem;
+}
 /* The banner section starts from here */
+.banner {
+  padding-left: 100px;
+  border-radius: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.banner-title {
+  color: #fff;
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.banner-details {
+  color: #fff;
+  margin-bottom: 15px;
+  width: 500px;
+}
+
+.banner-image {
+  max-width: 580px;
+}
+.banner-image > img {
+  height: 613px;
+  display: block;
+  width: 100%;
+}
 
 /* The sidebar and match time section starts from here */
+.main {
+  margin: 50px auto;
+}
 
+.match-time-left {
+    
+}
 /* The footer section starts from here */

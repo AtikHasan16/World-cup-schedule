@@ -3,17 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a7ba3c268e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/small.css" />
+    <link rel="stylesheet" href="./style/tab.css" />
+
     <title>World cup schedule</title>
   </head>
   <body>
-    <header class="banner"></header>
+    <header class="banner display-flex bg-color">
+      <div class="banner-text">
+        <h1 class="banner-title">The Greatest <br />show on the <br />earth</h1>
+        <p class="banner-details">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old.
+        </p>
+        <div class="button-container display-flex">
+          <button class="btn display-flex">
+            Watch Live<i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="banner-image">
+        <img src="assets/Banner Image.png" alt="" />
+      </div>
+    </header>
 
-    <main>
-      <div class="sidebar"></div>
-      <div class="match-time"></div>
+    <main class="main display-flex">
+      <div class="match-time-left">
+        <button class="btn">Upcoming Match</button>
+        <button class="btn">All Group</button>
+        <button class="btn">Blog</button>
+      </div>
+
+      <div class="match-time-right">
+        <div class="match-time-card">
+          <img src="assets/germany Flag.png" alt="" />
+          <span class="vs">vs</span>
+          <img src="assets/Flag.png" alt="" />
+          <h3 class="country-name">Germany vs France</h3>
+          <p>April 01, 2023,1.00 AM</p>
+        </div>
+      </div>
     </main>
 
-    
     <footer class="footer"></footer>
   </body>
 </html>

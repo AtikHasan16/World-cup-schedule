@@ -1,4 +1,30 @@
 /* The style is here for mobile device */
 
-@media screen and (max-width: 576) {
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0 10px;
+  }
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    height: 470px;
+  }
+
+  .button-container {
+    justify-content: center;
+  }
+
+  .banner-title {
+    font-size: 1.8rem;
+  }
+  .banner-details {
+    font-size: 0.8rem;
+    width: 300px;
+  }
+
+  .banner-image > img {
+    height: 240px;
+  }
 }
