@@ -1,7 +1,7 @@
 /* The style is here for mobile device */
 
 @media screen and (max-width: 576px) {
-  body {
+  .header-and-main {
     margin: 0 10px;
   }
   .banner {
@@ -57,5 +57,15 @@
 
   .match-time-right {
     justify-content: center;
+  }
+
+  .footer {
+    height: 500px;
+  }
+
+  .footer-links {
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
   }
 }

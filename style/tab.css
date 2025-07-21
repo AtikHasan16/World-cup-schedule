@@ -1,7 +1,7 @@
 /* The style is here for medium device */
 
 @media screen and (min-width: 576px) and (max-width: 970px) {
-  body {
+  .header-and-main {
     margin: 0 20px;
   }
 
